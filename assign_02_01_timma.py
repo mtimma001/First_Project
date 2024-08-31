@@ -1,4 +1,4 @@
-#This program is for use to verify users signing into the system
+#This program is for use to verify users logging into the system
 #it lets users give their password and security questions
 
 def username(name, password, security, year):
@@ -14,6 +14,7 @@ def username(name, password, security, year):
     #the client can also use the year of birth as security question
     print(f"When were you born? {year}")
 
+#recall function
 username("Michele Timma", "Timma@123", "Texas", 1999)
 
 

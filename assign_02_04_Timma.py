@@ -13,6 +13,7 @@ def patient_register(name, residence, sex, age):
     #get patient's age
     print(f"How old are you? {age}")
 
+#Recall the function
 patient_register("Michele Timma", "Texas", "Female", "32")
 
 
